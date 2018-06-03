@@ -33,6 +33,18 @@ h6 {
   src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
 
+.footer-left {
+  background-color: #091833;
+}
+
+.footer-right {
+  background-color: #582137;
+}
+
+.form-control {
+  border-radius: unset;
+}
+
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
