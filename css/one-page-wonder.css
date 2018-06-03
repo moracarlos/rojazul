@@ -73,6 +73,7 @@ img.img-1-1 {
 .container {
   background-color: #F3F3F3;
   max-width: none;
+  padding: 40px 0;
 }
 
 .top-container {
@@ -84,6 +85,14 @@ img.img-1-1 {
   padding: 0;
   max-width: 796px;
   margin: 0 auto;
+}
+
+.img-fluid {
+  height: 533px;
+  max-width: 796px;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
 }
 
 .text-1 {
