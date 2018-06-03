@@ -38,8 +38,29 @@ h6 {
 
 .footer-right {
   background-color: #582137;
+  
+  .footer-social-links {
+    .nav-link {
+      font-size: 2.8rem;
+      color: rgba(255,255,255,.5);
+    }
+  }
 }
 
 .form-control {
   border-radius: unset;
 }
+
+.vl {
+    border-left: 3px dashed black;
+    height: 280vh;
+    position: absolute;
+}
+  
+@media only screen and (min-height: 768px) {
+  .vl {
+    margin-top: 100px;
+    height: 175vh; 
+  }
+}
+
