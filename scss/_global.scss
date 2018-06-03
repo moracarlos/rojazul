@@ -1,5 +1,6 @@
 body {
   @include body-font;
+  overflow-x: hidden;
 }
 
 h1,
@@ -69,6 +70,15 @@ img.img-1-1{
 .top-container{
   margin-top: 200px;
 }
+
+#scissor {
+  width:70px; 
+  height:50px; 
+  transform: rotate(90deg); 
+  position: fixed;
+  margin-top: 50px;
+}
+
 .text-container{
   height: 533px;
   padding: 0;
@@ -127,7 +137,7 @@ img.img-1-1{
 @media only screen and (min-height: 768px) {
   .vl {
     margin-top: 100px;
-    height: 175vh; 
+    height: 205vh; 
   }
 }
 
