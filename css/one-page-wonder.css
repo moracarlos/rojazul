@@ -33,6 +33,80 @@ h6 {
   src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
 
+.row.images-banner {
+  margin-right: -105px;
+}
+
+.images-banner {
+  float: right;
+}
+
+img.img-1-1 {
+  width: 200px;
+  float: right;
+  margin-right: -60px;
+}
+
+.text-square {
+  width: 200px;
+  height: 134px;
+}
+
+.ts-1-2 {
+  background-color: #EB9900;
+  opacity: 0.5;
+}
+
+.ts-2-2 {
+  background-color: #1496DF;
+  opacity: 0.5;
+}
+
+.boxs-text {
+  display: flex;
+}
+
+.logo-image {
+  width: 250px;
+}
+
+.container {
+  background-color: #F3F3F3;
+  max-width: none;
+}
+
+.top-container {
+  margin-top: 200px;
+}
+
+.text-container {
+  height: 533px;
+  padding: 0;
+  max-width: 796px;
+  margin: 0 auto;
+}
+
+.text-1 {
+  background-color: #EB9900;
+  padding-top: 5%;
+}
+
+.text-2 {
+  background-color: #1496DF;
+  padding-top: 10%;
+}
+
+.text-3 {
+  background-color: #001833;
+  padding-top: 9%;
+}
+
+.p-text {
+  color: #fff;
+  font-size: 34px;
+  text-align: center;
+}
+
 .footer-left {
   background-color: #091833;
 }
