@@ -58,7 +58,8 @@ img.img-1-1 {
 }
 
 .text-square h3 {
-  padding-top: 20%;
+  padding-top: 16%;
+  font-size: 32px;
 }
 
 .ts-2-1 {
@@ -81,13 +82,27 @@ img.img-1-1 {
   opacity: 0.5;
 }
 
-.ts-4.2 {
+.ts-4-2 {
   background-color: transparent;
 }
 
 .boxs-text {
   display: flex;
   max-width: 46.8%;
+}
+
+.boxes-with-spaces {
+  max-width: 69%;
+}
+
+.banner-box-etsy {
+  padding: 3rem 1rem;
+  height: 100%;
+}
+
+.fab {
+  font-size: 40px;
+  color: #FFF;
 }
 
 .logo-image {
