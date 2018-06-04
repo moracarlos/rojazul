@@ -32,8 +32,9 @@ h6 {
     font-family: "Roboto Condensed";
     src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
-.row.images-banner{
-  margin-right: -105px;
+.banner-boxes{
+  display: grid;
+  align-self: center;
 }
 .images-banner{
   float: right;
@@ -41,22 +42,39 @@ h6 {
 img.img-1-1{
   width: 200px;
   float: right;
-  margin-right: -60px;
+}
+.img-1-2 {
+  padding: 0;
 }
 .text-square{
   width: 200px;
   height: 134px;
 }
-.ts-1-2{
+.text-square h3{
+  padding-top: 20%;
+}
+.ts-2-1{
   background-color: #EB9900;
   opacity: 0.5;
 }
-.ts-2-2{
+.ts-3-1{
   background-color: #1496DF;
   opacity: 0.5;
 }
+.ts-2-2{
+  background-color: #FF0202;
+  opacity: 0.5;
+}
+.ts-4-1{
+  background-color: #E57828;
+  opacity: 0.5;
+}
+.ts-4.2{
+  background-color: transparent;
+}
 .boxs-text{
   display: flex;
+  max-width: 46.8%;
 }
 .logo-image{
   width: 250px;
