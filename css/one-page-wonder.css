@@ -96,11 +96,8 @@ img.img-1-1 {
 }
 
 .banner-box-etsy {
-  padding: 3rem 1rem;
+  padding: 2.5rem 1rem 0;
   height: 100%;
-}
-
-.fab {
   font-size: 40px;
   color: #FFF;
 }
@@ -165,6 +162,12 @@ img.img-1-1 {
 
 .footer-left {
   background-color: #091833;
+}
+
+.footer-left .form-button {
+  background-color: #E57828;
+  color: #FFFFFF;
+  border-radius: unset;
 }
 
 .footer-right {
@@ -286,7 +289,7 @@ header.masthead .fullscreen-bg__video {
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    padding-bottom: 0rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -326,4 +329,16 @@ header.masthead .fullscreen-bg__video {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.rounded-circle {
+  width: 300px;
+  height: 300px;
+  background-color: #E57828;
+}
+
+.rounded-circle .nav-link.e-link {
+  font-size: 4.8em;
+  margin: auto;
+  color: #FFFFFF;
 }
