@@ -75,10 +75,10 @@ img.img-1-1{
 }
 .boxs-text{
   display: flex;
-  max-width: 46.8%;
+  max-width: unset;
 }
 .boxes-with-spaces{
-  max-width: 69%;
+  /*max-width: 69%;*/
 }
 .banner-box-etsy {
   padding:2.5rem 1rem 0;
@@ -108,29 +108,29 @@ img.img-1-1{
 }
 
 .text-container{
-  height: 533px;
+  /*height: 533px;
   padding: 0;
-  max-width: 40%;
+  max-width: 40%;*/
   margin: 0 auto;
 }
 .img-fluid{
-  height: 533px;
+  /*height: 533px;
   max-width: 82%;
-  padding: 0;
+  padding: 0;*/ 
   margin: 0 auto;
   display: flex;
 }
 .text-1{
   background-color: #EB9900;
-  padding-top: 5%;
+  /*padding-top: 5%;*/
 }
 .text-2{
   background-color: #1496DF;
-  padding-top: 10%;
+  /*padding-top: 10%;*/
 }
 .text-3{
   background-color: #001833;
-  padding-top: 9%;
+  /*padding-top: 9%;*/
 }
 .p-text{
   color: #fff;
