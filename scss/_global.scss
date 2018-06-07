@@ -39,6 +39,8 @@ h6 {
 .images-banner{
   float: right;
 }
+
+/***** Banner Boxes *****/
 img.img-1-1{
   width: 200px;
   float: right;
@@ -51,7 +53,6 @@ img.img-1-1{
   height: 134px;
 }
 .text-square h3{
-  padding-top: 16%;
   font-size: 32px;
 }
 .ts-2-1{
@@ -77,23 +78,21 @@ img.img-1-1{
   display: flex;
   max-width: unset;
 }
-.boxes-with-spaces{
-  /*max-width: 69%;*/
-}
 .banner-box-etsy {
   padding:2.5rem 1rem 0;
   height: 100%;  
   font-size: 40px;
   color: #FFF;
 }
+
+
 .logo-image{
-  width: 250px;
+  width: 68px;
 }
 
 .container{
   background-color: #F3F3F3;
   max-width: none;
-  padding: 40px 0;
 }
 .top-container{
   margin-top: 200px;
@@ -108,33 +107,30 @@ img.img-1-1{
 }
 
 .text-container{
-  /*height: 533px;
-  padding: 0;
-  max-width: 40%;*/
   margin: 0 auto;
 }
 .img-fluid{
-  /*height: 533px;
-  max-width: 82%;
-  padding: 0;*/ 
   margin: 0 auto;
   display: flex;
 }
 .text-1{
   background-color: #EB9900;
-  /*padding-top: 5%;*/
+  text-align: center;
+
 }
 .text-2{
+  display: flex;
+  justify-content: center;
   background-color: #1496DF;
-  /*padding-top: 10%;*/
+  
 }
 .text-3{
   background-color: #001833;
-  /*padding-top: 9%;*/
+  padding: 1%;
 }
 .p-text{
   color: #fff;
-  font-size: 34px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -161,7 +157,7 @@ img.img-1-1{
   border-radius: unset;
 }
 
-.vl {
+/*.vl {
     border-left: 3px dashed black;
     height: 280vh;
     position: absolute;
@@ -171,6 +167,35 @@ img.img-1-1{
   .vl {
     margin-top: 100px;
     height: 205vh; 
+  }
+}*/
+
+@media only screen and (min-width: 768px) {
+  .logo-image{
+    width: 180px;
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+  .p-text {
+    font-size: 34px;
+  }
+  .logo-image{
+    width: 210px;
+  }
+}
+
+.box {
+  width: 224px;
+  height: 150px;   
+}
+
+@media only screen and (min-width: 460px) {
+  .box {
+    width: 400px;
+    height: 270px;   
   }
 }
 
