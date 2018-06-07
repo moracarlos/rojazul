@@ -88,6 +88,7 @@ img.img-1-1{
 
 .logo-image{
   width: 68px;
+  align-self: center;
 }
 
 .container{
@@ -116,7 +117,9 @@ img.img-1-1{
 .text-1{
   background-color: #EB9900;
   text-align: center;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .text-2{
   display: flex;
@@ -199,3 +202,23 @@ img.img-1-1{
   }
 }
 
+@media only screen and (min-width: 460px) {
+  .box {
+    width: 400px;
+    height: 270px;   
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .box {
+    width: 832px;
+    height: 555px;   
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .box {
+    width: 500px;
+    height: 335px;   
+  }
+}
