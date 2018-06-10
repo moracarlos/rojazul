@@ -176,20 +176,6 @@ img.img-1-1{
   border-radius: unset;
 }
 
-.vl {
-    border-left: 3px dashed $gray-600;
-    height: 100px;
-    position: absolute;
-    margin-top: 6rem;
-}
-  
-@media only screen and (min-height: 768px) {
-  .vl {
-    margin-top: 100px;
-    height: 205vh; 
-  }
-}
-
 #buyon
 {
   position: relative;
@@ -204,4 +190,8 @@ img.img-1-1{
   background-color: rgba($naranja, 0.8);   
 }
 
-
+#scissors {
+  position:absolute;
+  transform: translateY(-20px) translateX(-50%) rotate(90deg) scale(0.5,0.5);
+  left: 50%;
+}
