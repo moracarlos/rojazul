@@ -34,10 +34,13 @@ h6 {
 }
 .banner-boxes{
   display: grid;
-  align-self: center;
+  //align-self: center;
 }
 .images-banner{
   float: right;
+  div {
+    padding: 0;
+  }
 }
 img.img-1-1{
   width: 200px;
@@ -81,7 +84,7 @@ img.img-1-1{
   max-width: 69%;
 }
 .banner-box-etsy {
-  padding:2.5rem 1rem 0;
+  //padding:2.5rem 1rem 0;
   height: 100%;  
   font-size: 40px;
   color: #FFF;
@@ -140,6 +143,10 @@ img.img-1-1{
 
 .footer-left {
   background-color: #091833;
+  min-height:400px;
+  div{
+    width:100%;
+  }
   .form-button {
     background-color: #E57828;
     color: #FFFFFF;
@@ -149,10 +156,18 @@ img.img-1-1{
 
 .footer-right {
   background-color: #582137;  
+  min-height: 400px;
+  div {
+    width:100%;
+  }
   .footer-social-links {
     .nav-link {
-      font-size: 2.8rem;
+      font-size: 3.8rem;
       color: rgba(255,255,255,.5);
+    }
+
+    .nav-link:hover {
+      color: rgba(255,255,255,.9);
     }
   }
 }
@@ -162,9 +177,10 @@ img.img-1-1{
 }
 
 .vl {
-    border-left: 3px dashed black;
-    height: 280vh;
+    border-left: 3px dashed $gray-600;
+    height: 100px;
     position: absolute;
+    margin-top: 6rem;
 }
   
 @media only screen and (min-height: 768px) {
@@ -173,4 +189,19 @@ img.img-1-1{
     height: 205vh; 
   }
 }
+
+#buyon
+{
+  position: relative;
+}
+
+#buyon > i {
+  font-size: 4em;
+  color: white;
+}
+
+#buyon:hover {
+  background-color: rgba($naranja, 0.8);   
+}
+
 

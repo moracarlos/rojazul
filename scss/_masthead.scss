@@ -1,19 +1,72 @@
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  //background: linear-gradient(0deg, $secondary 0%, $primary 100%);
-  //background-repeat: no-repeat;
-  //background-position: center center;
-  //background-attachment: scroll;
-  //background-size: cover;
+  padding-top: 100px;
+  background: url('../img/fondo.jpg') center center / cover no-repeat;
+  
+  .no-padding{
+    padding: 0;
+  }
+
+  #title-parent {
+    min-height:600px;
+  }
+
+  .small-square {
+    height: 170px;
+  }
+
+  #delantal-doblado {
+    background: url('../img/Creador04.jpg') center center / cover no-repeat;
+  }
+
+  #fondo-amarillo {
+    background: rgba($amarillo, 0.4);
+    h2 {
+      opacity: 0.87;
+    }
+  }
+
+  #fondo-rojo {
+    background: rgba($morado, 0.4);
+  }
+
+  #fondo-azul {
+    background: rgba($azul, 0.4);
+  }
+
+  #delantal-puesto{
+    background: url('../img/mochilero.jpg') center center / cover no-repeat;
+  }
+
+  #fondo-naranja {
+    background: #f56301;
+  }
+
+  #knife-holder {
+    background: url('../img/estuche.jpg') center center / cover no-repeat;
+  }
+
+  #etsy-button{
+    font-size: 40px;
+    color: rgba(255,255,255, 0.6);
+  }
+
+  #etsy-button:hover{
+    font-size: 40px;
+    color: rgba(255,255,255, 0.9);
+  }
+
   .masthead-content {
     z-index: 1;
     position: relative;
     .masthead-heading {
       font-size: 4rem;
       text-align: left;
+      position:absolute;
+      top:50%;
+      transform: translateY(-50%);
+      opacity: 0.87;
     }
     .masthead-subheading {
       font-size: 2rem;
@@ -64,11 +117,16 @@ header.masthead {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
+    //padding-top: calc(10rem + 55px);
+    padding-top: 100px;
     padding-bottom: 0rem;
     .masthead-content {
       .masthead-heading {
         font-size: 6rem;
+        position:absolute;
+        top:50%;
+        transform: translateY(-50%);
+
       }
       .masthead-subheading {
         font-size: 4rem;
@@ -76,3 +134,18 @@ header.masthead {
     }
   }
 }
+
+
+ .centered
+  {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+  }
+
+  .centered-horizontally-vertically {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

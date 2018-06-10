@@ -1,0 +1,81 @@
+#description-section {
+	background-color: $gray-100;	
+}
+
+#caja-amarilla {
+	background-color: $amarillo;
+}
+
+#caja-foto-1 {
+	background: url('../img/01.jpg') center center / cover no-repeat;
+}
+
+#caja-foto-2 {
+	background: url('../img/02.jpg') center center / cover no-repeat;
+}
+
+#caja-foto-3 {
+	background: url('../img/03.jpg') center center / cover no-repeat;
+}
+
+#caja-azul-claro {
+	background-color: $azul-claro;
+}
+
+#caja-azul {
+	background-color: $azul;
+
+}
+
+.content-box {
+	width:100%;
+	height: 400px;
+}
+
+h1, h2 {
+	font-family: 'Roboto Condensed';
+	color: #fff;
+}
+
+#visitus {
+	position:absolute;
+	padding-top: 60px;
+}
+
+
+#description-section{
+	margin-top: 6rem;
+	padding-top:6rem;
+}
+
+#line-container{
+		display: none;
+	}
+
+@media only screen and (min-width: 768px) {
+
+	.left-box {
+		padding-right: 3%;
+		margin-bottom: 6rem;
+	}
+
+	.right-box {
+		padding-left: 3%;
+		margin-bottom: 6rem;
+	}
+
+	#line-container{
+		display: block;
+	}
+}
+
+#line-container{
+	position: absolute;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+#vertical-line {
+	stroke: $gray-600;
+    stroke-width: 2;
+}
