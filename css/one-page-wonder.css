@@ -251,7 +251,6 @@ header.masthead {
   position: relative;
   overflow: hidden;
   padding-top: 100px;
-  background: url("../img/fondo.jpg") center center/cover no-repeat;
 }
 
 header.masthead .no-padding {
@@ -440,19 +439,16 @@ header.masthead .fullscreen-bg__video {
   color: #FFFFFF;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
-}
-
 .video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
 }
 
 #description-section {
@@ -499,7 +495,6 @@ h1, h2 {
 }
 
 #description-section {
-  margin-top: 6rem;
   padding-top: 6rem;
 }
 
@@ -537,4 +532,16 @@ h1, h2 {
 #vertical-line {
   stroke: #868e96;
   stroke-width: 2;
+}
+
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
 }
