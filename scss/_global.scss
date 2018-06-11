@@ -12,6 +12,17 @@ h6 {
   @include heading-font;
 }
 
+#loader
+{
+  display: block;
+  z-index: -2;
+}
+
+#loaded-content, .video
+{
+  display:none;
+}
+
 .btn-xl {
   text-transform: uppercase;
   padding: 1.5rem 3rem;
