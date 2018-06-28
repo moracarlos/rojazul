@@ -35,6 +35,13 @@
 h1, h2 {
 	font-family: 'Roboto Condensed';
 	color: #fff;
+	opacity: 0.87;
+}
+
+.content h1 {
+	font-size: 2rem;
+	opacity: .87;
+	line-height: 1.62;
 }
 
 #visitus {
@@ -84,5 +91,5 @@ h1, h2 {
 
 #vertical-line {
 	stroke: $gray-600;
-    stroke-width: 2;
+    stroke-width: 3px;
 }

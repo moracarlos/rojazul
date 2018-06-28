@@ -21,18 +21,18 @@ header.masthead {
   }
 
   #fondo-amarillo {
-    background: rgba($amarillo, 0.4);
+    background: rgba($amarillo, 0.8);
     h2 {
       opacity: 0.87;
     }
   }
 
   #fondo-rojo {
-    background: rgba($morado, 0.4);
+    background: rgba($rojo, 0.8);
   }
 
   #fondo-azul {
-    background: rgba($azul, 0.4);
+    background: rgba($azul, 0.8);
   }
 
   #delantal-puesto{
@@ -61,7 +61,7 @@ header.masthead {
     z-index: 1;
     position: relative;
     .masthead-heading {
-      font-size: 4rem;
+      font-size: 5.1rem;
       text-align: left;
       position:absolute;
       top:50%;
